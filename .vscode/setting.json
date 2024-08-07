@@ -1,0 +1,18 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "[Makefile]": {
+      "editor.insertSpaces": false,
+      "editor.tabSize": 4
+    },
+    "[kotlin]": {
+      "editor.insertSpaces": false,
+      "editor.tabSize": 2
+    },
+    "[shellscript]": {
+      "editor.insertSpaces": false,
+      "editor.tabSize": 2
+    }
+  }
