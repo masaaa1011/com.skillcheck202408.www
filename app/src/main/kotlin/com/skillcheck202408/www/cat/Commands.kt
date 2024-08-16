@@ -74,6 +74,7 @@ class Cat(private val context: Context, private val factory: IOptionFactory, pri
    * 
    * 1. ヘルプの文字数をそろえるために、最大文字数を取得（by GPT）
    * 2. 最大文字数を加味して標準出力へ
+   * HACK: 複数のコマンドクラス実装時は、abstractクラスへと移すこと
    */
   override fun help() {
     val maxLength = this.context.options.map { c ->
